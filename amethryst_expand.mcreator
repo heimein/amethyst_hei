@@ -1,0 +1,547 @@
+{
+  "mod_elements": [
+    {
+      "name": "Qq",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethrystexpand/item/QqItem.java",
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystGrain",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_grain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_grain.json",
+          "src/main/java/net/mcreator/amethrystexpand/item/AmethystGrainItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethryst_expand/models/block/amethyst_block.json",
+          "src/main/resources/assets/amethryst_expand/blockstates/amethyst_block.json",
+          "src/main/java/net/mcreator/amethrystexpand/block/AmethystBlockBlock.java",
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Zzgg",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zzgg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethrystexpand/item/ZzggItem.java",
+          "src/main/resources/assets/amethryst_expand/models/item/zzgg.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_furnace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/amethyst_furnace_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrainToIngot",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grain_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/grain_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "IngotToBlock",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingot_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/ingot_to_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockToIngot",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/block_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "IngotToGrain",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingot_to_grain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/ingot_to_grain.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethsytStick",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethsyt_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethrystexpand/item/AmethsytStickItem.java",
+          "src/main/resources/assets/amethryst_expand/models/item/amethsyt_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystToStick",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_to_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/amethyst_to_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_sword.json",
+          "src/main/java/net/mcreator/amethrystexpand/item/AmethystSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Amethystpickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethrystexpand/item/AmethystpickaxeItem.java",
+          "src/main/resources/assets/amethryst_expand/models/item/amethystpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethrystexpand/item/AmethystAxeItem.java",
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_shovel.json",
+          "src/main/java/net/mcreator/amethrystexpand/item/AmethystShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystHoe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethrystexpand/item/AmethystHoeItem.java",
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_armor_leggings.json",
+          "src/main/java/net/mcreator/amethrystexpand/item/AmethystArmorItem.java",
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_armor_boots.json",
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_armor_helmet.json",
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "SwordRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PickaxeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AxeRecipe2",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/axe_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "AxeRecipe3",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/axe_recipe_3.json"
+        ]
+      }
+    },
+    {
+      "name": "ShovelRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HoeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HoeRecipe2",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/hoe_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "HelmetRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChestplateRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LegingsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/legings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BootsRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Amethyst",
+      "type": "tab",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Amethystvilliger",
+      "type": "villagerprofession",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystvilliger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethryst_expand/textures/entity/villager/profession/amethystvilliger.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "VilligerTrade",
+      "type": "villagertrade",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villiger_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AmethystVoid",
+      "type": "dimension",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_void",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethrystexpand/world/teleporter/AmethystVoidTeleporter.java",
+          "src/main/resources/data/amethryst_expand/dimension_type/amethyst_void.json",
+          "src/main/resources/data/amethryst_expand/dimension/amethyst_void.json",
+          "src/main/resources/assets/amethryst_expand/models/block/amethyst_void_portal_ew.json",
+          "src/main/java/net/mcreator/amethrystexpand/world/dimension/AmethystVoidDimension.java",
+          "src/main/resources/assets/amethryst_expand/blockstates/amethyst_void_portal.json",
+          "src/main/java/net/mcreator/amethrystexpand/world/teleporter/AmethystVoidPortalShape.java",
+          "src/main/resources/assets/amethryst_expand/models/block/amethyst_void_portal_ns.json",
+          "src/main/java/net/mcreator/amethrystexpand/item/AmethystVoidItem.java",
+          "src/main/resources/assets/amethryst_expand/models/item/amethyst_void.json",
+          "src/main/java/net/mcreator/amethrystexpand/block/AmethystVoidPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "VoidRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethryst_expand/recipes/void_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "zhong_bi_chen_zzgg",
+      "files": [
+        "zi_zi_ju_ju_-zhang_bi_chen_wang_he_ye_ta_zi_zi_wei_ti_xi_huan_ni__ni_ju_ju_du_shi_wo_yuan_yi__ta__ju_ji_mo_shi_hou_de_hui_ying__ni_que_ji_dong_bu_yi__tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "zh_tw": {
+      "block.amethryst_expand.amethyst_block": "紫水晶磚",
+      "item.amethryst_expand.amethyst_void": "Amethyst Void Portal Igniter",
+      "item.amethryst_expand.amethyst_grain": "紫水晶粒",
+      "item.amethryst_expand.amethystpickaxe": "紫水晶鎬",
+      "item.amethryst_expand.amethyst_axe": "紫水晶斧",
+      "item.amethryst_expand.amethyst_shovel": "紫水晶鏟",
+      "entity.minecraft.villager.amethryst_expand.amethystvilliger": "Amethystvilliger",
+      "item.amethryst_expand.amethyst_armor_chestplate": "紫水晶胸甲",
+      "item.amethryst_expand.amethyst_armor_boots": "紫水晶靴子",
+      "item.amethryst_expand.amethyst_armor_helmet": "紫水晶頭盔",
+      "item.amethryst_expand.amethyst_ingot": "紫水晶錠",
+      "subtitles.zhong_bi_chen_zzgg": "張碧晨--字字句句",
+      "item.amethryst_expand.amethsyt_stick": "紫水晶棒",
+      "item.amethryst_expand.zzgg.desc": "張碧晨--字字句句",
+      "item.amethryst_expand.amethyst_hoe": "紫水晶鋤",
+      "item_group.amethryst_expand.amethyst": "Amethyst",
+      "item.amethryst_expand.amethyst_sword": "紫水晶劍",
+      "item.amethryst_expand.amethyst_armor_leggings": "紫水晶護腿",
+      "item.amethryst_expand.zzgg": "字字句句"
+    },
+    "en_us": {
+      "block.amethryst_expand.amethyst_block": "Amethyst Block",
+      "item.amethryst_expand.amethyst_void": "Amethyst Void Portal Igniter",
+      "item.amethryst_expand.amethyst_grain": "Amethyst Grain",
+      "item.amethryst_expand.amethyst_shovel": "Amethyst Shovel",
+      "item.amethryst_expand.amethyst_axe": "Amethyst Axe",
+      "item.amethryst_expand.amethystpickaxe": "Amethystpickaxe",
+      "entity.minecraft.villager.amethryst_expand.amethystvilliger": "Amethystvilliger",
+      "item.amethryst_expand.amethyst_armor_chestplate": "Amethyst  胸甲",
+      "item.amethryst_expand.amethyst_armor_boots": "Amethyst  靴子",
+      "item.amethryst_expand.amethyst_armor_helmet": "Amethyst  頭盔",
+      "item.amethryst_expand.amethyst_ingot": "Amethysy Ingot",
+      "subtitles.zhong_bi_chen_zzgg": "張碧晨--字字句句",
+      "item.amethryst_expand.amethsyt_stick": "Amethsyt Stick",
+      "item.amethryst_expand.zzgg.desc": "字字句句",
+      "item.amethryst_expand.amethyst_hoe": "Amethyst Hoe",
+      "item_group.amethryst_expand.amethyst": "Amethyst",
+      "item.amethryst_expand.amethyst_sword": "Amethyst Sword",
+      "item.amethryst_expand.amethyst_armor_leggings": "Amethyst  護腿",
+      "item.amethryst_expand.zzgg": "字字句句"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "amethryst_expand",
+    "modName": "紫水晶拓展",
+    "version": "1.0.0",
+    "description": "拓展了紫水晶這無用的東西。",
+    "author": "hei_mein",
+    "websiteURL": "https://www.instagram.com/hei_mein/",
+    "license": "Instergram : hei_mein",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created hei_mien - https://www.instagram.com/hei_mein/",
+    "modElementsPackage": "net.mcreator.amethrystexpand",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
